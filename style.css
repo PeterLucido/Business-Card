@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(8, 106, 109);
+}
+
+
+main, div, footer, header{
+  border: 1px solid black;
+}
+
+main {
+  width: 250px;
+}
+
+header{
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.Rating{
+  height: 100px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.Billing{
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer{
+  height: 75px;
+  display: flex;
+}
+
+footer > div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+}
+
+footer > :first-child {
+  background-color: rgb(73, 196, 98);
+}
+
+footer > :last-child {
+  background-color: rgb(14, 134, 74);
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(8, 106, 109);
+}
